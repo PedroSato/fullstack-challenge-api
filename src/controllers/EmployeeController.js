@@ -16,7 +16,7 @@ module.exports = {
         if (!name || !surname || !participation) {
 
             return res.status(400).json({
-                message: 'Ocorreu um erro com a validação dos campos, garanta que todos os campos foram preenchidos corretamente'
+                message: 'Ocorreu um erro com a validação dos campos'
             })
 
         } else {
